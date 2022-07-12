@@ -8,5 +8,8 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 app.get("/", (req, res) => {
-  res.send("hello");
+  res.send("hello mayank");
+});
+app.get("h", (req, res) => {
+  res.send("hello mayank");
 });
