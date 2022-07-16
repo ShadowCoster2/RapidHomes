@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
   res.send("hello mayank");
 });
 app.get("h", (req, res) => {
-  res.send("hello mayank");
+  res.send("hello");
 });
